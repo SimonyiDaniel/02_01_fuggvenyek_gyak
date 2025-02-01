@@ -4,11 +4,11 @@ def paros_e(list):
     
     for i in list:
         if i % 2 == 0:
-            return False
-        else: 
             return True
+
+    return False
 
 
 # szamok =  input('adja meg a szamokat (szóközt rakjon a számok kozé): ').split( )
-szamok = [1,2,3,1,7,1]
-print('parosak e:' ,paros_e(szamok))
+szamok = [1,9,3,1,2,1]
+print('Van e páros szám?' ,paros_e(szamok))
