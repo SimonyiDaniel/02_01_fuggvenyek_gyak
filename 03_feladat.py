@@ -1,5 +1,6 @@
 '''Írj egy programot, amely tartalmaz egy 'harommal_oszthatok' nevű függvényt, amely a paraméterként átvett listában megvizsgálja, hogy hány darab hárommal osztható szám van, és ezzel az értékkel tér vissza! A program tartalmazza a függvény hívását is!'''
 
+
 def harommal_oszthatok(list):
     db = 0
     for i in list:
@@ -8,5 +9,6 @@ def harommal_oszthatok(list):
     return db
 
 
-szamok =  input('adja meg a szamokat (szóközt rakjon a számok kozé): ').split( )
-print('3 oszthatok:' ,harommal_oszthatok(szamok))
+
+szamok = [1, 9, 3, 1, 2, 1]
+print('Hárommal osztható számok:', harommal_oszthatok(szamok))
